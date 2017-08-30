@@ -6,7 +6,7 @@ var FoxMU_HdrConf = {
         menuColor: "#00ff00"
 };
 var FoxMU_Hdr = {
-         "Blog": "http://flutterpony.org/",
+         "Blog": "javascript:void(0);",
     "Game Help": FoxMU_Config.MUHelpURL,
    "FoxMU Help": "http://"+window.location.hostname+"/help/"
 };
