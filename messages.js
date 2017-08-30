@@ -1,5 +1,5 @@
 var FoxMU_Messages = {
-    loadingClient: "<span class=\"loading\">FoxMU 0.9b (C) 2013 Alynna Trypnotk -- License MIT<br/>(Websockets Required)<br/>Loading client...</span>",
+    loadingClient: "<span class=\"loading\">FoxMU 1.0 (C) 2017 Alynna Trypnotk -- License MIT<br/>(Websockets Required)<br/>Loading client...</span>",
      clientLoaded: "<span class=\"loaded\"> OK</span><br/>",
        connecting: "<span class=\"connecting\">Connecting to the game...</span>",
         connected: "<span class=\"connected\"> OK</span><br/>",
