@@ -1,0 +1,60 @@
+FoxMU Web MU Client
+-------------------
+
+Version 1.0
+(C) 2017 Alynna Trypnotk -- MIT Licence.
+
+Introduction:
+ FoxMU is a MU client with very easy setup and low requirements for end users.
+ It is based on the hMUD client (0.5) whose development seems to have stopped
+ three years ago, I have continued its development for my own projects, however
+ I am also releasing it as well.
+
+ I have renamed/forked the software as it seems hMUD is not being developed 
+ anymore and I don't want to potentially step on anyone elses trademarks. Also
+ I have rewritten parts of the client to make it usable in all MU* 
+ architectures, hence the name FoxMU.
+
+Requirements (server side):
+- A web server of some kind.   FoxMU should be installed somewhere accessible
+  by your web server. (So that you can log in via the web)
+- Websockify: https://github.com/novnc/websockify
+
+Requirements (client side):
+- A web browser ^o.o^
+- Websockets support
+
+Installation:
+ Installation is thoroughly documented in the file INSTALL.  Please read it
+ to install this software.
+
+Features:
+ Features with - are ones that were part of hMUD 0.5, features with + are ones
+ that are added to FoxMU.
+
+ - Command history
+ - Command guide
+ - Font selector
+ - MU Logging
+ - Reconnect and disconnect functionality
+ - ANSI color (standard 16)
+ - ANSI text style modes (partial)
+ + ANSI color (XTerm 256)
+ + ANSI text style modes (most, including italics)
+ + Unicode support
+ + Additional font: Lucidia console
+ + Player auto login support (saved in cookie)
+ + Selectable command echo (on Settings menu, saved in cookie)
+ + URLs autoconverted to clickable links
+ + Image previews (Hover over an image link and see the image in the right corner)
+ + Inline images: Place an image right in the line of text (see docs below)
+ + Client area on top for help links and the title of your MUCK
+ + Client area links on top also produce HTML previews for quick reference
+ + Client area totally customizable in header.js
+ + Some new, fresher icons in the bottom right corner
+ + Help file on how to use the client on Client Menu
+
+More help:
+ Read the help file, either in the 'help' directory of this software, or available
+ from the client itself at FoxMU help.
+

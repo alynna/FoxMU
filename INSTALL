@@ -1,0 +1,59 @@
+FoxMU Installation
+==================
+
+Requirements (server side):
+* A web server of some kind.   FoxMU should be installed somewhere accessible
+  by your web server.
+* Websockify: git clone https://github.com/novnc/websockify.git
+          OR: https://github.com/novnc/websockify/archive/master.zip
+  Place it someplace you would want to run it from.  It comes ready to go.
+
+Requirements (client side):
+* A web browser ^o.o^
+* WebSockets support.  Available wherever HTML 5 web browsers are installed.
+
+!!! FoxMU no longer supports Flash.  Because no browser does anymore. !!!
+
+1 - WebSockify
+--------------
+After you download Websockify from the above git repository, put it someplace,
+then run it with the following command:
+
+ ./run -D <websockport> 127.0.0.1:<muckport>
+
+I recommend making this a startup daemon.
+
+2 - Configuring FoxMU
+---------------------
+
+The only file you have to edit to get it going is 'config.js'.  This file
+is documented with what the options do.  Here is the list of files with
+configurable information:
+
+    * config.js -- Contains the main configuration.  Please note that 
+      'host' should be an external address like 'mymuck.com' and 'port'
+      should be the websockport used above.  This port can be wherever
+      you have a free and open port.
+    * header.js -- Configures the area above the output window.  You can
+      add or customize all the links that appear there, or redo that area
+      entirely.
+    * guide.js -- Contains the configuration for the 'command reference'
+      on the options menu of FoxMU.  It comes configured for MUCK commands
+      but you will probably want to edit it for your game.
+    * messages.js -- Configures most system messages and the text on the
+      menus.  If you feel the need to customize these any, this is the 
+      file you want to touch.
+
+3 - Run the client
+------------------
+
+Using the HTML5-compatible browser of your choice, navigate to where you
+installed the web client.  For example, if you installed it under foxmu in
+your web server's root directory:
+
+    http://mymuck.com/foxmu/index.html
+
+If your webserver is configured properly, you probably don't even need the
+'index.html' part.
+
+
