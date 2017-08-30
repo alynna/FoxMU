@@ -24,6 +24,8 @@ Requirements (client side):
 - A web browser ^o.o^
 - Websockets support
 
+!! FoxMU no longer supports Flash, because noone else does. !!
+
 Installation:
  Installation is thoroughly documented in the file INSTALL.  Please read it
  to install this software.
@@ -39,6 +41,7 @@ Features:
  - Reconnect and disconnect functionality
  - ANSI color (standard 16)
  - ANSI text style modes (partial)
+ + Websockets.
  + ANSI color (XTerm 256)
  + ANSI text style modes (most, including italics)
  + Unicode support
